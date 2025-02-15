@@ -3,7 +3,7 @@ import Lottie from 'lottie-react';
 import { HiOutlineRocketLaunch } from 'react-icons/hi2';
 import visa from "@/assets/icons/visa.png";
 import bank from '@/assets/icons/banktransfer.png'
-import iban from '@/assets/icons/iban.png'
+// import iban from '@/assets/icons/iban.png'
 import mastercard from '@/assets/icons/mastercard.png'
 
 
@@ -15,7 +15,7 @@ const Payments = () => {
           <Lottie animationData={rocket} loop={true} />
         </div>
         <div className="">
-          <p className="text-2xl font-semibold text-center my-2">Contact us to pay using this payment methods</p>
+          <p className="text-xl font-semibold text-center my-2">Contact us to pay using this payment methods</p>
           <div className="flex justify-around my-4">
             <div className="">
               <img src={visa} className='w-12' alt="" />
@@ -23,10 +23,6 @@ const Payments = () => {
 
             <div className="">
               <img src={bank} className='w-12' alt="" />
-            </div>
-
-            <div className="">
-              <img src={iban} className='w-12' alt="" />
             </div>
 
             <div className="">
