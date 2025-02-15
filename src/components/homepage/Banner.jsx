@@ -1,4 +1,3 @@
-import React from 'react';
 import bannerImg from '@/assets/images/banner.svg'
 import { BiAlarmExclamation } from 'react-icons/bi';
 import { IoTimerSharp } from 'react-icons/io5';
@@ -18,9 +17,25 @@ const Banner = () => {
             </p>
 
             <div className="flex my-8 w-full gap-4">
-              <div className="flex items-center gap-2"><BiAlarmExclamation />Instant delivery</div>
-              <div className="flex items-center gap-2"><IoTimerSharp />24/7 Support</div>
-              <div className="flex items-center gap-2"><MdSecurity />100% Secure</div>
+              <div className="flex items-center gap-2">
+                <div>
+                  <BiAlarmExclamation />
+                </div>
+                <p className='text-sm'>Instant delivery</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <div>
+                  <IoTimerSharp />
+                </div>
+                <p className='text-sm'>24/7 Support</p>
+              </div>
+              <div className="flex items-center gap-2">
+                <div>
+                  <MdSecurity />
+                </div>
+                <p className='text-sm'>100% Secure</p>
+              </div>
+
             </div>
 
             <div className="flex justify-center">
@@ -35,7 +50,7 @@ const Banner = () => {
         </div>
       </section>
 
-     
+
     </div>
   );
 };
