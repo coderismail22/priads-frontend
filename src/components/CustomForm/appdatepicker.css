@@ -1,0 +1,4 @@
+.react-datepicker-wrapper {
+  width: 100% !important; /* Ensures the wrapper spans full width */
+  display: block !important; /* Overrides any inline-block behavior */
+}
