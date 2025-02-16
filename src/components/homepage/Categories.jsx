@@ -1,7 +1,6 @@
-import React from 'react';
 
+// TODO: Fetch data from db
 import categories from '../../libs/data/CategoryArray';
-
 const Categories = () => {
   return (
     <div className='mt-36'>
